@@ -18,7 +18,7 @@ Es handelt sich um eine recht simple MCV-Applikationen, die sehr stark reduziert
 Einfach dargstellt durchläuft jede Applikation die mit Luna erstellt wurde folgenden Workflow
 1. Request > Händelt die GET/POST Anfragen und validiert übergebene Parameter.
 2. Router > Ermittelt den richtigen Controller und seine Aktion und übergibt die validierten Daten an den Controller.
-3. Controller > Prüft ob der Zugriff erlaubt ist die angefragte Aktion und gibt sein Ergebnis an Response weiter.
+3. Controller > Prüft ob der Zugriff erlaubt ist, wenn ja wird die angefragte Aktion ausgeführt und gibt sein Ergebnis an Response weiter.
 4. Response > Setzt jenach Ergebnis des Controllers den entsprechenden HTTP Response-Code
 5. Controller > Lädt das Template und rendert die Anzeige, wenn der Response-Code 200 ist.
 
